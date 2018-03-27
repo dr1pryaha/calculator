@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Калькулятор</title>
+       <meta charset="utf-8">
+       <link href='Calc.css' rel='stylesheet' type='text/css'>
+       <script src="Calc.js"></script>
+    </head>
+    <body>
+
+      <div class="calculator">
+        <form class="calculator__form">
+            <div class="calculator__row">
+            <input class="calculator__display" id="display" type="text" value="0">
+            </div>
+            <div class="calculator__row">
+              <div class="calculator__column">
+                <button type="button" value="7" id="7" class="calculator__key calculator__button">7</button>
+                <button type="button" value="4" id="4" class="calculator__key calculator__button">4</button> 
+                <button type="button" value="1" id="1" class="calculator__key calculator__button">1</button>
+                <button type="button" value="0" id="0" class="calculator__key calculator__button">0</button>
+            </div>
+
+              <div class="calculator__column">
+                <button type="button" value="8" id="8" class="calculator__key calculator__button">8</button>
+                <button type="button" value="5" id="5" class="calculator__key calculator__button">5</button> 
+                <button type="button" value="2" id="2" class="calculator__key calculator__button">2</button>
+                <button type="button" value="00" id="00" class="calculator__key calculator__button">00</button>
+              </div>
+
+              <div class="calculator__column">
+                <button type="button" value="9" id="9" class="calculator__key calculator__button">9</button>
+                <button type="button" value="6" id="6" class="calculator__key calculator__button">6</button>  
+                <button type="button" value="3" id="3" class="calculator__key calculator__button">3</button>
+                <button type="button" value="." id="float" class="calculator__key calculator__button">.</button>
+              </div>
+
+              <div class="calculator__column">
+                <button type="button" value="/" id="division" class="calculator__key calculator__button calculator__key--blue">/</button>
+                <button type="button" value="*" id="multiply" class="calculator__key calculator__button calculator__key--blue">*</button>
+                <button type="button" value="+" id="plus" class="calculator__key calculator__button calculator__key--blue">+</button>
+                <button type="button" value="-" id="minus" class="calculator__key calculator__button calculator__key--blue">-</button>
+              </div>
+
+              <div class="calculator__column">
+                <button type="button" value="C" id="clean" class="calculator__key calculator__clear calculator__key--blue">C</button>
+                <button type="button" value="DEL" id="backspace" class="calculator__key calculator__backspace calculator__key--blue">DEL</button>
+                <button type="button" value="=" id="equal" class="calculator__key calculator__equal calculator__key--blue">=</button>
+              </div>
+            </div>
+          </form>
+      </div>
+    </body>
+</html>
